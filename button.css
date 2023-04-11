@@ -8,11 +8,13 @@ input[type="button"] {
   padding: 0.375em 0.5em 0.1875em;
   font-weight: 600;
   line-height: 1;
-  font-family: cursive;
+  font-family: 'DynaPuff', cursive;
 }
 input[type="button"]:hover {
   background-color: #bdbdbd;
+  font-family: 'DynaPuff', cursive;
 }
 input[type="button"]:active {
   background-color: #828181;
+  font-family: 'DynaPuff', cursive;
 }
