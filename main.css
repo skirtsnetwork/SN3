@@ -18,3 +18,16 @@ input[type="button"]:active {
   background-color: #828181;
   font-family: 'Orbitron', sans-serif;
 }
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 17px;  
+    text-align: center;
+}
