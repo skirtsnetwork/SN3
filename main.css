@@ -1,3 +1,23 @@
+iframe{
+  border: 0px;
+  margin: 0px;
+  height: 99vh;
+  width: 100%;
+}
+body {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
+  background-image: url('background.gif');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
 input[type="button"] {
   border-radius: 5px;
   border: 2px solid black ;
@@ -8,27 +28,39 @@ input[type="button"] {
   padding: 0.375em 0.5em 0.1875em;
   font-weight: 600;
   line-height: 1;
-font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
-
 input[type="button"]:hover {
   background-color: #bdbdbd;
-font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 input[type="button"]:active {
   background-color: #828181;
-font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 h1 {
-font-family: 'Press Start 2P', cursive;
-  color: white;
     font-size: 20px;
-    text-align: center;
     
 }
 h2 {
-font-family: 'Press Start 2P', cursive;
-  color: white;
     font-size: 17px;  
-    text-align: center;
+}
+.hidden {display: none}
+.on {
+  background-color: #5dcd4c !important;
+}
+.on:hover {
+  background-color: #70eb5e !important;
+}
+.on:active {
+  background-color: #49a33b !important; 
+}
+.off {
+  background-color: #bf4747 !important;
+}
+.off:hover {
+  background-color: #db5151 !important;
+}
+.off:active {
+  background-color: #ab3f3f !important;
 }
