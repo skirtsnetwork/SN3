@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <head>
-    <script async src="https://arc.io/widget.min.js#wB6vXupF"></script>
-    <link rel="shortcut icon" href="c.jpg"/>
-    <link rel="stylesheet" href="main.css">
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <title>Skirts Network</title>
+  <script async src="https://arc.io/widget.min.js#wB6vXupF"></script>
+  <link rel="shortcut icon" href="c.jpg"/>
+  <link rel="stylesheet" href="main.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+    rel="stylesheet"
+  />
+  <title>Skirts Network</title>
 </head>
 <body>
-    <style>
-        body {
-  background-color: black;
-  background-image: url('0eb15636563ecc2920056a5dd6e496c5.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-    </style>
-    <h1>
-        Welcome To Skirts Network 
-        </br>
-        </br>
-        </br>
-</br>
-    </br>
-    <input type="button" value="Games" onclick="location.href='games.html'"/>
-    </br>
-    </br>
-    <input type="button" value="Movies" onclick="location.href='movies.html'"/>
-    </br>
-    </br>
-    <input type="button" value="Cheats" onclick="location.href='cheats.html'"/>
-    </br>
-    </br>
-    <input type="button" value="Links" onclick="location.href='links.html'"/>
-    </br>
-    </br>
-    <input type="button" value="Apps" onclick="location.href='apps.html'"/>
-    </br>
-    </br>
-    <input type="button" id="tabCloak" value="Turn on Tab Cloaking">
-    </br>
-    </br>
-        🔻Status🔻
-                </br>
-            Everythings Working ✅
-                </br>
-            Charlemagne Pls Fix Tab Cloaking
-</h1>
+  <div id="content">
+  <h1>Welcome To Skirts Network</h1>
+  <br/><br/><br/>
+  <input type="button" value="Games" onclick="toggleSite('https://skirtsnetwork.github.io/nativegames/')"/>
+  <br/><br/>
+  <input type="button" value="Movies" onclick="toggleSite('https://ww7.soap2dayhd.co/')"/>
+  <br/><br/>
+  <input type="button" value="Cheats" onclick="toggleSite('https://maroon-alike-cauliflower.glitch.me/service/hvtrs8%2F-qwixiv.mnnile-sgrtiaeq%2Fsukzkzx%2F/')" />
+  <br/><br/>
+  <input type="button" value="Links" onclick="toggleSite('links.html')" />
+  <br/><br/>
+  <input type="button" value="Apps" onclick="toggleSite('https://link04122023.seonaz.com/')" />
+  <br/><br/>
+  <input type="button" id="tabCloak" value="Turn on Tab Cloaking" class="on" onclick="toggleCloaker()"/>
+  <br/><br/>
+  <div id="cloak" class="hidden">
+    Document Name: <input type="text" id="tabTitle" />
+    <br/>
+    Image URL (Optional): <input type="text" id="tabURL" />
+    <br/>
+    <input type="button" id="toggleCloak" class="on" value="Go" onclick="promptCloak()"/>
+  </div><br/><br/>
+  🔻Status🔻
+  <br />
+  All Services✅
+  <br /></div>
+<iframe src="https://skirtsnetwork.github.io/nativegames/" id="iframe" height="100vh" width="100vw" class="hidden" allowfullscreen></iframe>
+<script src="main.js"></script>
 </body>
+<html/>
