@@ -41,7 +41,7 @@ function toggleSite(source) {
   document.getElementById("iframe").src = source;
   document.getElementById("content").classList = "hidden";
   document.getElementById("iframe").classList = "";
-  document.getElementsByTagName("body")[0].style = "background-color: white;"
+  document.getElementsByTagName("body")[0].style = "background-color: white; background-image: none"
 }
 if (localStorage.getItem("cloakName") == null) {
   cloak("c.png", "Skirts Network");
